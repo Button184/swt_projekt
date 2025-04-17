@@ -4,12 +4,12 @@
 #include <vector>
 #include <fstream> //datei einlesen
 #include <iomanip> //formatierten Tabelle der Playlist hier: setw
-#include "BibliothekEinlesen.h"
-#include "LiedHinzufuegen.h"
-#include "LiedLoeschen.h"
-#include "BibliothekAnzeigen.h"
-#include "BibliothekSpeichern.h"
-#include "MetaDatenAendern.h"
+#include "BibliothekEinlesen.hpp"
+#include "LiedHinzufuegen.hpp"
+#include "LiedLoeschen.hpp"
+#include "BibliothekAnzeigen.hpp"
+#include "BibliothekSpeichern.hpp"
+#include "MetaDatenAendern.hpp"
 
 using namespace std;
 
@@ -28,8 +28,8 @@ typedef struct {
     int duration;
 } Lied;
 
-string playlist = "C:/Users/Admin/Desktop/Code/VSC/swt_projekt_playlist/playlist.csv";
-
+string playlist = "C:/Users/Admin/Desktop/Code/swt_projekt/playlist.csv";
+/*
 void BibliothekEinlesen(const string playlist) {
 
     //vektor "lieder" wird deklariert und speichert Lied-Objekte
@@ -48,7 +48,7 @@ void BibliothekEinlesen(const string playlist) {
 
         stringstream stream(line);
 
-        //Songstruktur mit hilfsvariabel fuer dauer des einzelnen Lieds
+        //Songstruktur mit hilfsvariabel für die Dauer des einzelnen Lieds
         Lied lied;
         string duration_string;
 
@@ -87,6 +87,7 @@ void BibliothekEinlesen(const string playlist) {
         }
 
     }
+    */
 
     void LiedHinzufuegen(const string playlist) {
         //ofstream u zum bearbeiten innerhalb einer datei, ios zum eintragen von integern,
