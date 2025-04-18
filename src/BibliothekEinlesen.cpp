@@ -1,13 +1,11 @@
+#include "BibliothekEinlesen.hpp"
 #include <iostream>
-#include <string>
-#include <sstream>
-#include <vector>
 #include <fstream>
-#include <iomanip>
+#include <sstream>
 
 using namespace std;
 
-string playlist = "C:/Users/Admin/Desktop/Code/swt_projekt_playlist/playlist.csv";
+//string playlist = "C:/Users/Admin/Desktop/Code/swt_projekt_playlist/playlist.csv";
 
 typedef struct {
     string artist;
