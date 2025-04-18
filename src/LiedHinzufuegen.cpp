@@ -1,5 +1,14 @@
+#include "BibliothekEinlesen.hpp"
+#include <iostream>
+#include <fstream>
+#include <sstream>
+
+using namespace std;
 
 
+void LiedHinzufuegen(const string& playlist) {
+
+}
 
 /*
 void LiedHinzufuegen(const string playlist) {

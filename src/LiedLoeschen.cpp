@@ -1,5 +1,13 @@
+#include "LiedLoeschen.hpp"
+#include <iostream>
+#include <fstream>
+#include <sstream>
 
+using namespace std;
 
+void LiedLoeschen(const string& playlist) {
+
+}
 
 /*
     void LiedLoeschen(const string playlist) {
@@ -42,4 +50,4 @@
         datei_neu.close();
         cout<<"**Lied erfolgreich entfernt!**"<<endl;
 
-    }
+    }*/

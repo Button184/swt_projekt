@@ -61,7 +61,7 @@ int main() {
                 BibliothekSpeichern(playlist);
                 break;
             case 6:
-                SongDataAendern();
+                DatenAendern(playlist);
                 break;
             case 7:
                 cout<<"Programm wird beendet. Bis zum nächsten Mal! :)";
